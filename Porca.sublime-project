@@ -27,12 +27,19 @@
 			"#define MyBreak()",
 			"#define MyBreakEx(message)",
 			"#define MyStrToFloat(nullTermStr)",
+			"inline mat4 ToMat4(oc_mat2x3 matrix)",
+			"inline oc_mat2x3 ToOcMat(mat4 matrix)",
+			"inline oc_rect ToOcRect(rec rectangle)",
+			"inline oc_vec2 ToOcVec2(v2 vector)",
+			"inline rec ToRec(oc_rect rectangle)",
+			"inline v2 ToVec2(oc_vec2 vector)",
 		],
 		"custom_globals":
 		[
 		],
 		"custom_types":
 		[
+			"PigState_t",
 		],
 	},
 }

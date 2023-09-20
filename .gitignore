@@ -1,0 +1,26 @@
+
+#Folders
+/lib/include/*
+!lib/include/README.txt
+
+/build/*
+!build/build.bat
+
+/release/
+/screenshots/
+
+#File Types
+*.vim
+*.a
+*.sublime-workspace
+*.obj
+*.o
+
+#Visual Studio Stuff
+*.VC.*
+/.vs/
+vc140.pdb
+/Debug/
+
+#Mac Stuff
+*.DS_Store

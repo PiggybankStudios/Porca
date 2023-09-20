@@ -1,0 +1,38 @@
+{
+	"folders":
+	[
+		{
+			"path": ".",
+		}
+	],
+	"settings":
+	{
+		"build_options":
+		[
+		],
+		"custom_constants":
+		[
+			"GYLIB_MEM_ARENA_DEBUG_ENABLED",
+			"GY_CUSTOM_STD_LIB",
+			"GY_WASM_STD_LIB",
+			"LINUX_COMPILATION",
+			"ORCA_COMPILATION",
+			"OSX_COMPILATION",
+			"PLAYDATE_COMPILATION",
+			"WASM_COMPILATION",
+			"WINDOWS_COMPILATION",
+		],
+		"custom_functions":
+		[
+			"#define MyBreak()",
+			"#define MyBreakEx(message)",
+			"#define MyStrToFloat(nullTermStr)",
+		],
+		"custom_globals":
+		[
+		],
+		"custom_types":
+		[
+		],
+	},
+}
